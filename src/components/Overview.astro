@@ -147,22 +147,22 @@
             <img
               src="/images/app-schedule.png"
               alt="Schedule Screen"
-              class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:rotate-1 hover:-translate-y-1"
+              class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             />
             <img
               src="/images/app-profile.png"
               alt="Profile Screen"
-              class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-rotate-1 hover:-translate-y-1"
+              class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             />
             <img
               src="/images/app-events.png"
               alt="Events Screen"
-              class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-rotate-1 hover:-translate-y-1"
+              class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             />
             <img
               src="/images/app-id.png"
               alt="Student ID Screen"
-              class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:rotate-1 hover:-translate-y-1"
+              class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             />
           </div>
         </div>
@@ -172,29 +172,10 @@
 </section>
 
 <style>
-  @keyframes float {
-    0% {
-      transform: translateY(0px) rotate(0deg);
-    }
-    50% {
-      transform: translateY(-8px) rotate(var(--rotation));
-    }
-    100% {
-      transform: translateY(0px) rotate(0deg);
-    }
-  }
-
   .grid img:hover {
-    animation: float 3s ease-in-out infinite;
+    transform: scale(1.05);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-  }
-
-  .grid img:nth-child(odd):hover {
-    --rotation: 2deg;
-  }
-
-  .grid img:nth-child(even):hover {
-    --rotation: -2deg;
+    transition: all 0.3s ease-in-out;
   }
 
   @keyframes pulse-subtle {
