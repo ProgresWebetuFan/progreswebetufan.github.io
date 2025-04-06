@@ -4,41 +4,31 @@ import { AlertTriangle, X } from "@lucide/astro";
 
 <section
   id="disclaimer"
-  class="py-8 px-6 md:px-12 bg-gradient-to-r from-red-50 via-orange-50 to-red-50"
+  class="py-8 px-6 md:px-12 bg-gradient-to-r from-green-50 via-green-100 to-green-50"
 >
-  <div class="max-w-7xl mx-auto">
+  <!-- <div class="max-w-7xl mx-auto">
     <div
-      class="border border-red-200 rounded-xl p-5 md:p-6 bg-white shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group"
+      class="border border-green-200 rounded-xl p-5 md:p-6 bg-white shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden group"
     >
-      <!-- Red accent bar on left side -->
       <div
-        class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-red-400 via-red-500 to-red-400 group-hover:w-1.5 transition-all duration-300"
+        class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-green-400 via-green-500 to-green-400 group-hover:w-1.5 transition-all duration-300"
       >
       </div>
 
-      <!-- Background gradient effect -->
       <div
-        class="absolute inset-0 bg-gradient-to-r from-red-50 to-orange-50 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
+        class="absolute inset-0 bg-gradient-to-r from-green-50 to-green-100 opacity-0 group-hover:opacity-10 transition-opacity duration-300"
       >
       </div>
-
-      <!-- <button 
-        id="close-disclaimer" 
-        class="absolute top-3 right-3 p-1.5 rounded-full hover:bg-gray-100 transition-colors duration-200"
-        aria-label="Close disclaimer"
-      >
-        <X class="w-4 h-4 text-gray-500" />
-      </button> -->
 
       <div class="flex items-start gap-4 pl-3 relative z-10">
         <div
-          class="bg-gradient-to-r from-red-100 to-orange-100 p-2.5 rounded-full flex-shrink-0 mt-0.5 transform group-hover:scale-110 transition-transform duration-300"
+          class="bg-gradient-to-r from-green-100 to-green-200 p-2.5 rounded-full flex-shrink-0 mt-0.5 transform group-hover:scale-110 transition-transform duration-300"
         >
-          <AlertTriangle class="w-5 h-5 text-red-600" />
+          <AlertTriangle class="w-5 h-5 text-green-600" />
         </div>
         <div>
           <h2
-            class="text-xl font-bold bg-gradient-to-r from-red-600 to-red-700 text-transparent bg-clip-text mb-3 flex items-center gap-2"
+            class="text-xl font-bold bg-gradient-to-r from-green-600 to-green-700 text-transparent bg-clip-text mb-3 flex items-center gap-2"
           >
             Disclaimer
           </h2>
@@ -55,26 +45,5 @@ import { AlertTriangle, X } from "@lucide/astro";
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </section>
-
-<!-- <script>
-  // Add functionality to close the disclaimer
-  document.getElementById('close-disclaimer')?.addEventListener('click', () => {
-    document.getElementById('disclaimer')?.classList.add('animate-fade-out');
-    setTimeout(() => {
-      document.getElementById('disclaimer')?.classList.add('hidden');
-    }, 300);
-  });
-</script>
-
-<style>
-  .animate-fade-out {
-    animation: fadeOut 0.3s ease-out forwards;
-  }
-  
-  @keyframes fadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
-  }
-</style> -->
