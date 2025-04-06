@@ -4,51 +4,56 @@ import "../styles/global.css";
 
 <!doctype html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>WEBETU - Mobile Student Portal for Algerian Universities</title>
-    <meta
-      name="description"
-      content="WEBETU is an innovative mobile application designed to enhance the student experience in Algerian universities."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body {
-        background: linear-gradient(to bottom right, #f0fff4, #ebf8ff, #f0fff4);
-        min-height: 100vh;
-      }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="generator" content={Astro.generator} />
+        <title>WEBETU - Mobile Student Portal for Algerian Universities</title>
+        <meta
+            name="description"
+            content="WEBETU is an innovative mobile application designed to enhance the student experience in Algerian universities."
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            body {
+                background: linear-gradient(
+                    to bottom right,
+                    #f0fff4,
+                    #ebf8ff,
+                    #f0fff4
+                );
+                min-height: 100vh;
+            }
 
-      /* Add smooth scrolling for anchor links */
-      html {
-        scroll-behavior: smooth;
-      }
+            /* Add smooth scrolling for anchor links */
+            html {
+                scroll-behavior: smooth;
+            }
 
-      /* Add subtle animations */
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(10px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
+            /* Add subtle animations */
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(10px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
 
-      main > section {
-        animation: fadeIn 0.5s ease-out;
-      }
-    </style>
-  </head>
-  <body>
-    <slot />
-  </body>
+            main > section {
+                animation: fadeIn 0.5s ease-out;
+            }
+        </style>
+    </head>
+    <body>
+        <slot />
+    </body>
 </html>
