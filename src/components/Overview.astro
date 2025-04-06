@@ -177,23 +177,24 @@
       transform: translateY(0px) rotate(0deg);
     }
     50% {
-      transform: translateY(-10px) rotate(var(--rotation));
+      transform: translateY(-8px) rotate(var(--rotation));
     }
     100% {
       transform: translateY(0px) rotate(0deg);
     }
   }
 
-  .grid img:nth-child(odd):hover {
-    --rotation: 1deg;
+  .grid img:hover {
     animation: float 3s ease-in-out infinite;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   }
 
+  .grid img:nth-child(odd):hover {
+    --rotation: 2deg;
+  }
+
   .grid img:nth-child(even):hover {
-    --rotation: -1deg;
-    animation: float 3.5s ease-in-out infinite;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    --rotation: -2deg;
   }
 
   @keyframes pulse-subtle {
@@ -207,6 +208,10 @@
   }
 
   .group:hover .bg-gradient-to-r {
-    animation: pulse-subtle 2s ease-in-out infinite;
+    animation: pulse-subtle 3s ease-in-out infinite;
+  }
+
+  .transform {
+    transition: all 0.3s ease-in-out;
   }
 </style>
