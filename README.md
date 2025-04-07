@@ -2,6 +2,8 @@
 
 ![WEBETU App](public/landing.png)
 
+**🌐 Live ** [https://progreswebetufan.github.io/webetu-landing/](https://progreswebetufan.github.io/webetu-landing/)
+
 ## 📱 Project Overview
 
 WEBETU is a comprehensive mobile application designed to enhance the student experience in Algerian universities. It simplifies student life by bringing essential services together in one app, allowing students to focus on what matters most - their education.
@@ -53,7 +55,9 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🌐 Deployment
 
-This landing page can be deployed to any static hosting service like Vercel, Netlify, or GitHub Pages.
+This landing page is deployed on GitHub Pages and can be accessed at: [https://progreswebetufan.github.io/webetu-landing/](https://progreswebetufan.github.io/webetu-landing/)
+
+It can also be deployed to other static hosting services like Vercel or Netlify.
 
 ## 👥 Contributing
 
