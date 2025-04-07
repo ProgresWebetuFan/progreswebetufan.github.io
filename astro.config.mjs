@@ -6,6 +6,8 @@ import tunnel from "astro-tunnel";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://progreswebetufan.github.io',
+  base: '/webetu-landing/',
   vite: {
     plugins: [tailwindcss()],
     server: {
