@@ -2,7 +2,7 @@
 
 ![WEBETU App](public/landing.png)
 
-**🌐 Live ** [https://progreswebetufan.github.io/webetu-landing/](https://progreswebetufan.github.io/webetu-landing/)
+**🌐 Live Demo:** [https://progreswebetufan.github.io/webetu-landing/](https://progreswebetufan.github.io/webetu-landing/)
 
 ## 📱 Project Overview
 
