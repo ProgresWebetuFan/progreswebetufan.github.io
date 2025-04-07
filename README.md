@@ -2,7 +2,7 @@
 
 ![WEBETU App](public/landing.png)
 
-**🌐 Live Demo:** [https://progreswebetufan.github.io/webetu-landing/](https://progreswebetufan.github.io/webetu-landing/)
+**🌐 Live Demo:** [https://progreswebetufan.github.io/](https://progreswebetufan.github.io/)
 
 ## 📱 Project Overview
 
@@ -55,7 +55,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🌐 Deployment
 
-This landing page is deployed on GitHub Pages and can be accessed at: [https://progreswebetufan.github.io/webetu-landing/](https://progreswebetufan.github.io/webetu-landing/)
+This landing page is deployed on GitHub Pages and can be accessed at: [https://progreswebetufan.github.io/](https://progreswebetufan.github.io/)
 
 It can also be deployed to other static hosting services like Vercel or Netlify.
 
