@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import {
   UserCircle,
   Calendar,
@@ -7,6 +8,8 @@ import {
   BookOpen,
   Zap,
 } from "@lucide/astro";
+import appFeatures from "../assets/images/app-features.png";
+import appEvents from "../assets/images/app-events.png";
 ---
 
 <section
@@ -190,9 +193,10 @@ import {
               <div
                 class="relative transform hover:scale-[1.01] transition-all duration-200 ease-in-out cursor-pointer"
               >
-                <img
-                  src="/images/app-features.png"
+                <Image
+                  src={appFeatures}
                   alt="WEBETU App Features"
+                  loading="lazy"
                   class="rounded-xl shadow-lg z-10 relative hover:shadow-xl transition-all duration-300 w-full h-auto object-contain"
                 />
                 <div
@@ -203,9 +207,10 @@ import {
               <div
                 class="relative transform hover:scale-[1.01] transition-all duration-200 ease-in-out cursor-pointer"
               >
-                <img
-                  src="/images/app-events.png"
+                <Image
+                  src={appEvents}
                   alt="Mobile Interface"
+                  loading="lazy"
                   class="rounded-xl shadow-lg z-10 relative hover:shadow-xl transition-all duration-300 w-full h-auto object-contain"
                 />
                 <div

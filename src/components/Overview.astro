@@ -1,5 +1,9 @@
 ---
-// Import any necessary components or utilities
+import { Image } from "astro:assets";
+import appSchedule from "../assets/images/app-schedule.png";
+import appProfile from "../assets/images/app-profile.png";
+import appEvents from "../assets/images/app-events.png";
+import appId from "../assets/images/app-id.png";
 ---
 
 <section
@@ -144,24 +148,28 @@
           <div
             class="grid grid-cols-4 gap-4 justify-center transform transition-transform duration-500 cursor-pointer"
           >
-            <img
-              src="/images/app-schedule.png"
+            <Image
+              src={appSchedule}
               alt="Schedule Screen"
+              loading="lazy"
               class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             />
-            <img
-              src="/images/app-profile.png"
+            <Image
+              src={appProfile}
               alt="Profile Screen"
+              loading="lazy"
               class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             />
-            <img
-              src="/images/app-events.png"
+            <Image
+              src={appEvents}
               alt="Events Screen"
+              loading="lazy"
               class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             />
-            <img
-              src="/images/app-id.png"
+            <Image
+              src={appId}
               alt="Student ID Screen"
+              loading="lazy"
               class="rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             />
           </div>
