@@ -55,9 +55,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🌐 Deployment
 
-This landing page is deployed on GitHub Pages and can be accessed at: [https://progreswebetufan.github.io/](https://progreswebetufan.github.io/)
-
-It can also be deployed to other static hosting services like Vercel or Netlify.
+This landing page  can  be deployed to any static hosting services like Vercel or Netlify.
 
 ## 👥 Contributing
 
