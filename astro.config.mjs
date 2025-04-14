@@ -6,6 +6,10 @@ import tunnel from "astro-tunnel";
 
 // https://astro.build/config
 export default defineConfig({
+  experimental: {
+    svg: true,
+  },
+
   site: 'https://progreswebetufan.github.io',
   vite: {
     plugins: [tailwindcss()],
@@ -13,7 +17,7 @@ export default defineConfig({
       allowedHosts: ['*.trycloudflare.com'],
     },
   },
-  
+
 
   integrations: [tunnel()],
 });
